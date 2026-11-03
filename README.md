@@ -12,6 +12,14 @@ AgentsTR  with HPtransformer added.
 
 WekAgentsTR -> with Wekinator and HPtransformer added.
 
+To use the Wek... versions, you need to install Wekinator:
+
+https://github.com/fiebrink1/wekinator
+
+You will find the necessary models for each piece of software in the repository:
+
+Wekinator-Models-for-HP-Software
+
 Quick started:
 
 Very important: Unzip the archive and place the software in the ‘Applications’ folder before using it.
