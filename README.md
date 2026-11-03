@@ -18,7 +18,7 @@ https://github.com/fiebrink1/wekinator
 
 You will find the necessary models for each piece of software in the repository:
 
-Wekinator-Models-for-HP-Software
+[Wekinator-Models-for-HP-Software](https://github.com/provinescu/Wekinator-Models-for-HP-Software)
 
 Quick started:
 
