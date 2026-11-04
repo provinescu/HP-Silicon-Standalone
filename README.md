@@ -51,5 +51,4 @@ Otherwise, explore and have fun.
 Notes:
 
 For versions using the Transformer, depending on the latency, you may receive ‘late’ messages. This is perfectly normal. The Transformer performs a great deal of computation.
-
 If you set the latency to 0.2 (the default latency for the Supercollider server), you should not normally receive any ‘late’ messages.
