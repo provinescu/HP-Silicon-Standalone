@@ -48,7 +48,7 @@ To use your sounds, edit the file named ‘sound’ or ‘list sound’ in the w
 
  Check the guides!
 
-https://github.com/provinescu/HP-Software-Guides
+[ HP-Software-Guides](https://github.com/provinescu/HP-Software-Guides)
 
 Otherwise, explore and have fun.
 
