@@ -20,6 +20,16 @@ You will find the necessary models for each piece of software in the repository:
 
 [Wekinator-Models-for-HP-Software](https://github.com/provinescu/Wekinator-Models-for-HP-Software)
 
+For Windows or Linux users:
+
+Please refer to the repository
+
+
+
+Install a version of SuperCollider
+
+https://supercollider.github.io/
+
 Quick started:
 
 Very important: Unzip the archive and place the software in the ‘Applications’ folder before using it.
