@@ -4,7 +4,7 @@ A standalone software collection for organising musical sounds created using Sup
 
 There are several software versions (exemple with Agents):
 
-Basic software agents.
+Agents Basic software.
 
 WekAgents  with Wekinator added to control parameters.
 
