@@ -10,7 +10,7 @@ WekAgents  with Wekinator added to control parameters.
 
 AgentsTR  with HPtransformer added.
 
-WekAgentsTR -> with Wekinator and HPtransformer added.
+WekAgentsTR with Wekinator and HPtransformer added.
 
 To use the Wek... versions, you need to install Wekinator:
 
