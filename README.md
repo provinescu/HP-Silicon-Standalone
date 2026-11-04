@@ -24,7 +24,7 @@ For Windows or Linux users:
 
 Please refer to the repository
 
-[https://github.com/provinescu/Software-Class](https://github.com/provinescu/Software-Class)
+[[https://github.com/provinescu/Software-Class](https://github.com/provinescu/Software-Class)](https://github.com/provinescu#:~:text=Software%2DClass)
 
 Install a version of SuperCollider
 
