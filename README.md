@@ -42,6 +42,8 @@ A folder named after the programme will be created in your ‘home/documents/’
 This is where the presets and data will be saved.
 You can, of course, create further working folders later on.
 
+Please note: some software programmes that use sounds loaded into memory are very sensitive to the number of sounds used.
+If you wish to use your own sounds, you will need to create a new folder so that the software can initialise the start-up files correctly.
 To use your sounds, edit the file named ‘sound’ or ‘list sound’ in the working folder, ensuring you follow the correct syntax.
 
  Check the guides!
