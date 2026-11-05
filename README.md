@@ -35,7 +35,6 @@ If you wish to use your own sounds, you will need to create a new folder so that
 To use your sounds, edit the file named ‘sound’ or ‘list sound’ in the working folder, ensuring you follow the correct syntax.
 
  Check the guides!
-
 [ HP-Software-Guides](https://github.com/provinescu/HP-Software-Guides)
 
 Otherwise, explore and have fun.
