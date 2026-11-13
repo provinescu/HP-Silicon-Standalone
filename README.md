@@ -23,9 +23,7 @@ Quick started:
 Very important: Unzip the archive and place the software in the ‘Applications’ folder before using it.
 Ensure that MIDI is enabled by default ‘IAC Manager’.
 
-Please be patient when starting it up for the first time – it takes a little while.
-
-Launch the programme.
+Launch the programme (please be patient when starting it up for the first time – it takes a little while).
 A window will open displaying a series of settings.
 The first time you use it, simply click the ‘Working Folder’ button and then select ‘Cancel’.
 A folder named after the programme will be created in your ‘home/documents/’ directory.
