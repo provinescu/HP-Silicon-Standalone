@@ -47,7 +47,7 @@ If you set the latency to 0.2 (the default latency for the Supercollider server)
 With certain software, error messages may appear in the post window (e.g. ‘node not found’, ‘late’, ‘buffer’, etc.).
 These have no effect on the software’s operation.
 
-Provinescu is a All in One Launcher for All Standalone.
+Provinescu is a All in One Launcher for All Software.
 
 These standalone are based on the classes you will find here:
 [ Software-Classes](https://github.com/provinescu/Software-Classes)
