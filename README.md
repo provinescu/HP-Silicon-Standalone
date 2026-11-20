@@ -52,3 +52,4 @@ Provinescu is a All in One Launcher for All Software.
 These standalone are based on the classes you will find here:
 [ Software-Classes](https://github.com/provinescu/Software-Classes)
 
+These Standalone have been tested and verified on Mac OS High Sierra and Sequoia
