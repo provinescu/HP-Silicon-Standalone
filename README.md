@@ -52,4 +52,6 @@ These have no effect on the software’s operation.
 These standalone are based on the classes you will find here:
 [ Software-Classes](https://github.com/provinescu/Software-Classes)
 
+These standalone applications were created using Platypus: https://github.com/dathinaios/sc_osx_standalone
+
 These Standalone have been tested and verified on Mac OS Sequoia
