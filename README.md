@@ -49,7 +49,9 @@ If you set the latency to 0.2 (the default latency for the Supercollider server)
 With certain software, error messages may appear in the post window (e.g. ‘node not found’, ‘late’, ‘buffer’, etc.).
 These have no effect on the software’s operation.
 
-These standalone are based on the classes you will find here:
+These Standalone are based on the classes you will find here:
 [ Software-Classes](https://github.com/provinescu/Software-Classes)
+
+These Standalone were created using Platypus: https://github.com/dathinaios/sc_osx_standalone
 
 These Standalone have been tested and verified on Mac OS Sequoia
