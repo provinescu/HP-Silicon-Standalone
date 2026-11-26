@@ -5,7 +5,7 @@ A standalone software collection for organising musical sounds created using Sup
 These Standalone are based on the classes you will find here:
 [ Software-Classes](https://github.com/provinescu/Software-Classes)
 
-These classes use the VSTplugin class: https://github.com/Spacechild1/vstplugin
+These Standalone use the VSTplugin class: https://github.com/Spacechild1/vstplugin
 
 These Standalone were created using Platypus: https://github.com/dathinaios/sc_osx_standalone
 
