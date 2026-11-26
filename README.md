@@ -25,13 +25,8 @@ Several editions are available, with optional [Wekinator](http://www.wekinator.o
 - [Wekinator editions](#wekinator-editions)
 - [HPtransformer editions](#hptransformer-editions)
 - [Performance and latency](#performance-and-latency)
-- [Data safety and updates](#data-safety-and-updates)
 - [Documentation](#documentation)
 - [Troubleshooting](#troubleshooting)
-- [Checksums](#checksums)
-- [Support and bug reports](#support-and-bug-reports)
-- [Project status](#project-status)
-- [License](#license)
 
 ---
 
@@ -319,21 +314,6 @@ Complete error or late-message text
 
 ---
 
-## Data safety and updates
-
-Before installing an update:
-
-1. Quit the application.
-2. Copy the complete working folder to a separate backup location.
-3. Keep the previous application version.
-4. Install the new version without overwriting the backup.
-5. Test sound loading, presets, saving, reopening, MIDI, and normal quit.
-6. Remove the older version only after the new version has been validated.
-
-Do not assume that preset formats remain compatible between beta releases. Document any migration requirement in `CHANGELOG.md` and the GitHub release notes.
-
----
-
 ## Documentation
 
 Repository documentation:
@@ -399,86 +379,6 @@ Add one complete guide per application family when available.
 - Reintroduce custom sounds one at a time.
 
 See [Documentation/Troubleshooting.md](Documentation/Troubleshooting.md) for a structured diagnostic checklist.
-
----
-
-## Checksums
-
-Every release should include `SHA256SUMS.txt`.
-
-Generate checksums on macOS:
-
-```bash
-shasum -a 256 *.7z > SHA256SUMS.txt
-```
-
-Verify one archive:
-
-```bash
-shasum -a 256 Agents-macOS-arm64-v0.9.0-beta.1.7z
-```
-
-Verify all listed archives:
-
-```bash
-shasum -a 256 -c SHA256SUMS.txt
-```
-
-Checksums verify file integrity. They do not prove that an unsigned application is trusted or malware-free.
-
----
-
-## Support and bug reports
-
-Before opening a GitHub issue, read [SUPPORT.md](SUPPORT.md) and search existing issues.
-
-Include:
-
-- application and edition;
-- application version;
-- Mac model and Apple chip;
-- macOS version;
-- audio interface;
-- sample rate and buffer size;
-- server latency;
-- MIDI or OSC configuration;
-- working-folder location;
-- exact steps to reproduce;
-- complete error message;
-- screenshots when useful.
-
-Do not publish private information, personal file paths, credentials, or confidential audio material.
-
----
-
-## Project status
-
-HP Silicon Standalone is experimental software intended for musical creation, performance research, and exploration.
-
-Before a `1.0.0` release, users should expect:
-
-- possible interface changes;
-- possible preset-format changes;
-- incomplete notarization;
-- performance differences between Mac models;
-- application-specific limitations.
-
-Use versioned releases and read the changelog before updating.
-
----
-
-## License
-
-Add an explicit `LICENSE` file before public redistribution.
-
-If the complete standalone collection can legally be distributed under MIT, use:
-
-```text
-MIT License
-Copyright (c) 2026 Hervé Provini
-```
-
-However, first verify the licenses and redistribution terms of every bundled third-party component, plugin, library, sound, and executable. The repository license cannot override third-party license obligations.
 
 ---
 
