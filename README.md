@@ -177,8 +177,6 @@ Before editing:
 5. Preserve every bracket, comma, symbol, and parenthesis.
 6. Restart the application or use its reload command after saving.
 
-The exact syntax depends on the application. Use only a verified example from that application's guide. A malformed SuperCollider expression can prevent the sound list from loading.
-
 ---
 
 ## Wekinator editions
@@ -195,8 +193,6 @@ General workflow:
 6. Train the Wekinator model.
 7. Start Wekinator output.
 8. Confirm that the standalone parameters respond.
-
-Document the exact OSC ports and vector dimensions separately for every application. Do not assume that Agents, Density, Matrix, and Time use identical mappings.
 
 ---
 
@@ -244,23 +240,6 @@ Try the following in order:
 7. Close unused applications.
 8. Test the base edition before testing the TR edition.
 9. Increase audio buffer size if acceptable for the musical use case.
-
-Record the following when reporting a performance problem:
-
-```text
-Application and edition
-Application version
-Mac model and chip
-macOS version
-Audio interface
-Sample rate
-Hardware buffer size
-Server latency
-Learning interval
-Generation interval
-Snapshot interval
-Complete error or late-message text
-```
 
 ---
 
