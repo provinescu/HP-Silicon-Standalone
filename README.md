@@ -35,7 +35,7 @@ The collection currently includes the following application families.
 | **Robot** | Automated and generative musical processes | Base, TR, Wek, Wek+TR |
 | **Time** | Organize temporal structures and musical evolution | Base, Wek |
 | **Scores** | Work with score-oriented musical organization | Base |
-| **Provinescu** | Collection-specific standalone environment | Base, TR, Wek, Wek+TR |
+| **Provinescu** | All in One Launcher for All Software| Base, TR, Wek, Wek+TR |
 
 ---
 
