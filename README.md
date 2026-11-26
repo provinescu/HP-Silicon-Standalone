@@ -52,7 +52,7 @@ Notes:
 
 Provinescu is a All in One Launcher for All Software.
 
-For versions using the Transformer, depending on the latency, you may receive ‘late’ messages. This is perfectly normal. The Transformer performs a great deal of computation.
+For versions using the Transformer, depending on the latency, you may receive ‘late’ messages. The Transformer performs a great deal of computation.
 If you set the latency to 0.2 (the default latency for the Supercollider server), you should not normally receive any ‘late’ messages.
 
 With certain software, error messages may appear in the post window (e.g. ‘node not found’, ‘late’, ‘buffer’, etc.).
