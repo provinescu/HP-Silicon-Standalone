@@ -19,7 +19,6 @@ Several editions are available, with optional [Wekinator](http://www.wekinator.o
 - [Wekinator editions](#wekinator-editions)
 - [HPtransformer editions](#hptransformer-editions)
 - [Performance and latency](#performance-and-latency)
-- [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -195,51 +194,6 @@ Try the following in order:
 1. Increase server latency to `0.2` seconds.
 2. Keep `replayBatchSize` at `1`.
 3. Disable verbose status output.
-
----
-
-## Troubleshooting
-
-### The application does not open
-
-- Confirm that the `.app` bundle is in `/Applications`.
-- Check **System Settings > Privacy & Security**.
-- Confirm that the archive was fully extracted.
-- Compare the archive's SHA-256 checksum.
-- Test the latest supported release.
-
-### No sound
-
-- Check macOS audio output.
-- Check the selected audio interface.
-- Confirm sample rate and device availability.
-- Verify the application's output level.
-- Load a known-good default sound file.
-
-### The working folder is missing
-
-- Click **Working Folder**.
-- Select a valid writable folder.
-- Check `~/Documents/ApplicationName/` if the default-folder behavior was used.
-- Verify permissions in **System Settings > Privacy & Security > Files and Folders**.
-
-### Wekinator does not respond
-
-- Confirm that the correct Wek edition is running.
-- Verify OSC host and ports.
-- Verify input and output dimensions.
-- Confirm that the Wekinator model is running.
-
-### Frequent `late` messages
-
-- Increase latency to `0.2` seconds.
-
-### The sound file no longer loads
-
-- Restore the backup.
-- Compare the edited file with the original.
-- Check commas, parentheses, brackets, symbols, and UTF-8 encoding.
-- Reintroduce custom sounds one at a time.
 
 ---
 
