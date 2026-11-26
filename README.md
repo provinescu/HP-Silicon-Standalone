@@ -239,9 +239,6 @@ Try the following in order:
 ### Frequent `late` messages
 
 - Increase latency to `0.2` seconds.
-- Reduce transformer learning and generation rates.
-- Publish snapshots less frequently.
-- Test the equivalent base edition.
 
 ### The sound file no longer loads
 
