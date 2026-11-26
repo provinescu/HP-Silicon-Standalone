@@ -186,18 +186,6 @@ HPtransformer may include:
 - MetaLearn;
 - targeted RCU inference snapshots.
 
-Recommended starting points:
-
-```text
-Learning interval:       0.10 s
-Generation interval:     0.05–0.15 s
-Snapshot publication:    every 5–10 s
-Replay batch size:       1
-Server latency:          0.2 s
-```
-
-These are starting values, not guarantees. Performance depends on the application, model size, Mac model, audio interface, sample rate, buffer size, and simultaneous software load.
-
 ---
 
 ## Performance and latency
