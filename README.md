@@ -72,7 +72,7 @@ The collection currently includes the following application families.
 
 ### MIDI workflows
 
-- macOS **IAC Driver** enabled only when virtual MIDI routing is required
+- macOS **IAC Driver** enabled or any other MIDI driver must be enabled to launch the standalone application
 - A MIDI controller is optional
 
 ### TR editions
