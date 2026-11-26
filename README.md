@@ -198,8 +198,6 @@ General workflow:
 
 Document the exact OSC ports and vector dimensions separately for every application. Do not assume that Agents, Density, Matrix, and Time use identical mappings.
 
-See [Documentation/Wekinator.md](Documentation/Wekinator.md).
-
 ---
 
 ## HPtransformer editions
@@ -228,8 +226,6 @@ Server latency:          0.2 s
 ```
 
 These are starting values, not guarantees. Performance depends on the application, model size, Mac model, audio interface, sample rate, buffer size, and simultaneous software load.
-
-See [Documentation/HPtransformer.md](Documentation/HPtransformer.md).
 
 ---
 
@@ -265,24 +261,6 @@ Generation interval
 Snapshot interval
 Complete error or late-message text
 ```
-
----
-
-## Documentation
-
-Repository documentation:
-
-- [Installation](Documentation/Installation.md)
-- [Applications and editions](Documentation/Applications.md)
-- [Sound files](Documentation/Sound-Files.md)
-- [MIDI and IAC Driver](Documentation/MIDI-IAC.md)
-- [Wekinator setup](Documentation/Wekinator.md)
-- [HPtransformer editions](Documentation/HPtransformer.md)
-- [Troubleshooting](Documentation/Troubleshooting.md)
-- [Support](SUPPORT.md)
-- [Changelog](CHANGELOG.md)
-
-Add one complete guide per application family when available.
 
 ---
 
@@ -332,12 +310,5 @@ Add one complete guide per application family when available.
 - Check commas, parentheses, brackets, symbols, and UTF-8 encoding.
 - Reintroduce custom sounds one at a time.
 
-See [Documentation/Troubleshooting.md](Documentation/Troubleshooting.md) for a structured diagnostic checklist.
-
 ---
 
-## Acknowledgements
-
-Built with [SuperCollider](https://supercollider.github.io/) for generative music, algorithmic composition, live performance, and musical interaction.
-
-Optional editions integrate [Wekinator](http://www.wekinator.org/) and HPtransformer.
