@@ -6,10 +6,6 @@ HP Silicon Standalone is a collection of applications for organizing, transformi
 
 Several editions are available, with optional [Wekinator](http://www.wekinator.org/) control, HPtransformer learning and generation, or both.
 
-> **Project status: experimental beta**
->
-> Back up every working folder before installing a new version. Some builds may be unsigned or not notarized. Read the installation and data-safety sections before launching an application.
-
 ---
 
 ## Table of contents
@@ -39,10 +35,10 @@ The collection currently includes the following application families.
 | **Agents** | Organize and evolve autonomous musical agents | Base, Wek, TR, Wek+TR |
 | **Density** | Explore musical density and event distribution | Base, Wek, TR, Wek+TR |
 | **Matrix** | Organize sound and control data in matrix structures | Base, Wek, TR, Wek+TR |
-| **Robot** | Automated and generative musical processes | Base, TR |
-| **Time** | Organize temporal structures and musical evolution | Base, Wek, TR, Wek+TR |
+| **Robot** | Automated and generative musical processes | Base, TR, Wek, Wek+TR |
+| **Time** | Organize temporal structures and musical evolution | Base, Wek |
 | **Scores** | Work with score-oriented musical organization | Base |
-| **Provinescu** | Collection-specific standalone environment | Base |
+| **Provinescu** | Collection-specific standalone environment | Base, TR, Wek, Wek+TR |
 
 Availability is based on the currently published archive names. If an edition is not listed, it should be considered unavailable until a release explicitly includes it.
 
