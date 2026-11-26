@@ -40,8 +40,6 @@ The collection currently includes the following application families.
 | **Scores** | Work with score-oriented musical organization | Base |
 | **Provinescu** | Collection-specific standalone environment | Base, TR, Wek, Wek+TR |
 
-Availability is based on the currently published archive names. If an edition is not listed, it should be considered unavailable until a release explicitly includes it.
-
 ---
 
 ## Edition names
