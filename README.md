@@ -193,14 +193,8 @@ Occasional `late` messages may appear during heavy transformer operations. Persi
 Try the following in order:
 
 1. Increase server latency to `0.2` seconds.
-2. Reduce the learning frequency.
-3. Reduce the generation frequency.
-4. Publish transformer snapshots less often.
-5. Keep `replayBatchSize` at `1`.
-6. Disable verbose status output.
-7. Close unused applications.
-8. Test the base edition before testing the TR edition.
-9. Increase audio buffer size if acceptable for the musical use case.
+2. Keep `replayBatchSize` at `1`.
+3. Disable verbose status output.
 
 ---
 
