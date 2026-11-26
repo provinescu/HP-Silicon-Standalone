@@ -19,7 +19,6 @@ Several editions are available, with optional [Wekinator](http://www.wekinator.o
 - [Wekinator editions](#wekinator-editions)
 - [HPtransformer editions](#hptransformer-editions)
 - [Performance and latency](#performance-and-latency)
-- [Documentation](#documentation)
 - [Troubleshooting](#troubleshooting)
 
 ---
