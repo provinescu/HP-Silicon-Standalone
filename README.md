@@ -17,7 +17,6 @@ Several editions are available, with optional [Wekinator](http://www.wekinator.o
 - [Installation](#installation)
 - [First launch and working folders](#first-launch-and-working-folders)
 - [Adding your own sounds](#adding-your-own-sounds)
-- [MIDI and IAC Driver](#midi-and-iac-driver)
 - [Wekinator editions](#wekinator-editions)
 - [HPtransformer editions](#hptransformer-editions)
 - [Performance and latency](#performance-and-latency)
