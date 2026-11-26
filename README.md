@@ -83,16 +83,6 @@ The collection currently includes the following application families.
 
 > The standalone applications are built with SuperCollider 3.14. A separate SuperCollider installation should not be required for ordinary standalone use unless a specific guide states otherwise.
 
-### Compatibility table
-
-Maintain this table with tested systems only:
-
-| Application version | Mac chips tested | macOS versions tested | Status |
-|---|---|---|---|
-| `v0.9.0-beta.1` | Add tested chips | Add tested versions | Planned |
-
-Do not claim compatibility with a macOS version until the application has been launched, produced sound, saved a preset, reopened its working folder, and completed a normal quit on that version.
-
 ---
 
 ## Downloads
@@ -122,10 +112,8 @@ Each release should include:
 ## Installation
 
 1. Download the required archive from **GitHub Releases**.
-2. Download `SHA256SUMS.txt` from the same release.
-3. Verify the archive checksum.
-4. Extract the `.7z` archive with a compatible utility such as [Keka](https://www.keka.io/) or 7-Zip.
-5. Move the `.app` bundle to:
+2. Extract the `.7z` archive with a compatible utility such as [Keka](https://www.keka.io/) or 7-Zip.
+3. Move the `.app` bundle to:
 
    ```text
    /Applications
@@ -142,12 +130,6 @@ If the application is unsigned or not notarized:
 3. Find the message concerning the blocked application.
 4. Select **Open Anyway**.
 5. Confirm the launch.
-
-Do not disable Gatekeeper globally. Do not run downloaded shell commands unless their purpose and source have been verified.
-
-### Signed and notarized builds
-
-When a build is signed and notarized, state this explicitly in the corresponding release notes. Do not imply that all releases are signed unless every downloadable application has been checked.
 
 ---
 
@@ -166,8 +148,6 @@ On first launch:
    ```
 
 4. Confirm that the folder contains the expected preset, sound, and configuration files.
-
-A future interface should provide a visible **Use Default Folder** button instead of using **Cancel** as an implicit command.
 
 Typical working-folder contents may include:
 
@@ -199,25 +179,6 @@ Before editing:
 6. Restart the application or use its reload command after saving.
 
 The exact syntax depends on the application. Use only a verified example from that application's guide. A malformed SuperCollider expression can prevent the sound list from loading.
-
-See [Documentation/Sound-Files.md](Documentation/Sound-Files.md).
-
----
-
-## MIDI and IAC Driver
-
-The Apple component is named **IAC Driver**, not “IAC Manager.” It is required only for virtual MIDI routing between applications.
-
-To enable it:
-
-1. Open **Audio MIDI Setup**.
-2. Select **Window > Show MIDI Studio**.
-3. Double-click **IAC Driver**.
-4. Enable **Device is online**.
-5. Create or select an IAC bus.
-6. Restart the standalone application if it was already open.
-
-Physical MIDI controllers do not always require IAC Driver. Follow the individual application's MIDI guide.
 
 ---
 
