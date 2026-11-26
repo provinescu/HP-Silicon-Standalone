@@ -27,7 +27,7 @@ You will find the necessary models for each piece of Wek... software in the repo
 Quick started:
 
 Very important: Unzip the archive and place the software in the ‘Applications’ folder before using it.
-Ensure that MIDI is enabled by default ‘IAC Manager’.
+Ensure that MIDI is enabled.
 
 Launch the programme (please be patient when starting it up for the first time – it takes a little while).
 A window will open displaying a series of settings.
