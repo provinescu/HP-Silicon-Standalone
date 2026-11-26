@@ -60,7 +60,6 @@ The collection currently includes the following application families.
 - Apple Silicon Mac: M1, M2, M3, M4, or later
 - A tested version of macOS
 - Audio output or an audio interface supported by macOS
-- Enough free disk space for the application and its working folder
 
 ### Wek editions
 
