@@ -13,7 +13,6 @@ Several editions are available, with optional [Wekinator](http://www.wekinator.o
 - [Applications](#applications)
 - [Edition names](#edition-names)
 - [Requirements](#requirements)
-- [Downloads](#downloads)
 - [Installation](#installation)
 - [First launch and working folders](#first-launch-and-working-folders)
 - [Adding your own sounds](#adding-your-own-sounds)
@@ -81,30 +80,6 @@ The collection currently includes the following application families.
 - A practical starting server latency of `0.2` seconds
 
 > The standalone applications are built with SuperCollider 3.14. A separate SuperCollider installation should not be required for ordinary standalone use unless a specific guide states otherwise.
-
----
-
-## Downloads
-
-Download applications from the repository's **GitHub Releases** page rather than from the `main` branch.
-
-Recommended asset naming:
-
-```text
-Agents-macOS-arm64-v0.9.0-beta.1.7z
-AgentsTR-macOS-arm64-v0.9.0-beta.1.7z
-WekAgents-macOS-arm64-v0.9.0-beta.1.7z
-WekAgentsTR-macOS-arm64-v0.9.0-beta.1.7z
-```
-
-Each release should include:
-
-- versioned application archives;
-- release notes;
-- `SHA256SUMS.txt`;
-- relevant guides;
-- known limitations;
-- tested macOS versions.
 
 ---
 
