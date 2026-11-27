@@ -3,7 +3,7 @@
 > **Provinescu Software Production**
 > Standalone generative-music applications for Macs with Apple silicon.
 > 
-> These classes use the VSTplugin class: https://github.com/Spacechild1/vstplugin.
+> These Standalone use the VSTplugin class: https://github.com/Spacechild1/vstplugin.
 > 
 > These Standalone were created using Platypus: https://github.com/dathinaios/sc_osx_standalone.
 > 
