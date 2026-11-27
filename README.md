@@ -162,7 +162,7 @@ These editions require more CPU resources than Standard and Wek editions.
 
 `late` messages may appear during computationally intensive HPtransformer operations.
 
-If they become frequent or occur together with audio dropouts:
+If they become frequent:
 
 1. Set the audio-server latency to `0.2` seconds.
 2. Keep `replayBatchSize` at `1` when this setting is available.
