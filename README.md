@@ -170,8 +170,6 @@ If they become frequent:
 
 Messages such as `node not found`, `late`, or `buffer` may occasionally be non-critical if audio and controls continue to work correctly.
 
-Repeated audio dropouts, missing sounds, or unresponsive controls should be investigated.
-
 ## Documentation
 
 See:
