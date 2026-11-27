@@ -167,8 +167,6 @@ If they become frequent or occur together with audio dropouts:
 1. Set the audio-server latency to `0.2` seconds.
 2. Keep `replayBatchSize` at `1` when this setting is available.
 3. Disable verbose status messages.
-4. Reduce the number or size of sounds loaded into memory.
-5. Close other CPU-intensive applications.
 
 Messages such as `node not found`, `late`, or `buffer` may occasionally be non-critical if audio and controls continue to work correctly.
 
