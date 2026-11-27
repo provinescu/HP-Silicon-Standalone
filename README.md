@@ -15,7 +15,7 @@ This repository brings together standalone applications designed to organize, tr
 
 ## Downloads
 The standalone applications are available from the repository's Releases section.
-Download the .7z archive corresponding to the ion and edition you want to use.
+Download the .7z archive corresponding to the version and edition you want to use.
 
 ## Overview
 
