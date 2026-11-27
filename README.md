@@ -1,276 +1,196 @@
-# HP Silicon Standalone
+# HP Standalone Applications for Apple Silicon
 
-**Standalone generative-music applications built with SuperCollider 3.14 for Apple Silicon Macs.**
+> **Provinescu Software Production**
+> Standalone generative-music applications for Macs with Apple silicon.
 
-HP Silicon Standalone is a collection of applications for organizing, transforming, generating, and performing user-defined musical sounds. The collection includes systems based on musical agents, density, matrices, automated processes, scores, and time structures.
+**SuperCollider 3.14 · Apple silicon · Generative Music · No Coding Required**
 
-Several editions are available, with optional [Wekinator](http://www.wekinator.org/) control, HPtransformer learning and generation, or both.
+This repository brings together standalone applications designed to organize, transform, generate, and perform with sounds selected by the user.
 
----
+## Overview
 
-There are several software versions (exemple with Agents):
+Developed as an extension of my practice as a **drummer, composer, and software developer**, this collection explores musical agents, density, matrices, automated processes, scores, and temporal structures.
 
-Agents default/basic software.
+The standalone applications make these systems accessible without requiring users to work directly in the SuperCollider development environment.
 
-WekAgents  with Wekinator added to control parameters.
+## Available applications
 
-AgentsTR  with HPtransformer added.
+| Application | Main function | Standard | Wek | TR | Wek+TR |
+|---|---|:---:|:---:|:---:|:---:|
+| **Agents** | Organize and evolve autonomous musical agents | Yes | Yes | Yes | Yes |
+| **Density** | Explore musical density and event distribution | Yes | Yes | Yes | Yes |
+| **Matrix** | Organize sounds and control data in matrix structures | Yes | Yes | Yes | Yes |
+| **Robot** | Create automated and generative musical processes | Yes | Yes | Yes | Yes |
+| **Time** | Organize temporal structures and their musical evolution | Yes | Yes | No | No |
+| **Scores** | Work with score-based musical organization | Yes | No | No | No |
+| **Provinescu** | Launch the collection from a single application | Yes | Yes | Yes | Yes |
 
-WekAgentsTR with Wekinator and HPtransformer added.
+## Available editions
 
-To use the Wek... versions, you need to install Wekinator:
-https://github.com/fiebrink1/wekinator
+| Edition | Typical name | Wekinator | HPtransformer | Main function |
+|---|---|:---:|:---:|---|
+| **Standard** | `Agents` | No | No | Standard standalone application |
+| **Wek** | `WekAgents` | Yes | No | Parameter control via Wekinator |
+| **TR** | `AgentsTR` | No | Yes | Learning and generation with HPtransformer |
+| **Wek+TR** | `WekAgentsTR` | Yes | Yes | Combines Wekinator and HPtransformer |
 
-You will find the necessary models for each piece of Wek... software in the repository:
-[Wekinator-Models-for-HP-Software](https://github.com/provinescu/Wekinator-Models-for-HP-Software)
-
-Quick started:
-
-Very important: Unzip the archive and place the software in the ‘Applications’ folder before using it.
-Ensure that MIDI is enabled.
-
-Launch the programme (please be patient when starting it up for the first time – it takes a little while).
-A window will open displaying a series of settings.
-The first time you use it, simply click the ‘Working Folder’ button and then select ‘Cancel’.
-A folder named after the programme will be created in your ‘home/documents/’ directory.
-This is where the presets and data will be saved.
-You can, of course, create further working folders later on.
-
-Please note: some software programmes that use sounds loaded into memory are very sensitive to the number of sounds used.
-If you wish to use your own sounds, you will need to create a new folder so that the software can initialise the start-up files correctly.
-To use your sounds, edit the file named ‘sound’ or ‘list sound’ in the working folder, ensuring you follow the correct syntax.
-
- Check the guides!
-[ HP-Software-Guides](https://github.com/provinescu/HP-Software-Guides)
-
-Otherwise, explore and have fun.
-
-Notes:
-
-Provinescu is a All in One Launcher for All Software.
-
-For versions using the Transformer, depending on the latency, you may receive ‘late’ messages. This is perfectly normal. The Transformer performs a great deal of computation.
-If you set the latency to 0.2 (the default latency for the Supercollider server), you should not normally receive any ‘late’ messages.
-
-With certain software, error messages may appear in the post window (e.g. ‘node not found’, ‘late’, ‘buffer’, etc.).
-These have no effect on the software’s operation.
-
-These Standalone are based on the classes you will find here:
-[ Software-Classes](https://github.com/provinescu/Software-Classes)
-
-These classes use the VSTplugin class: https://github.com/Spacechild1/vstplugin
-
-These Standalone were created using Platypus: https://github.com/dathinaios/sc_osx_standalone
-
-These Standalone have been tested and verified on Mac OS Sequoia
-
-## Table of contents
-
-- [Applications](#applications)
-- [Edition names](#edition-names)
-- [Requirements](#requirements)
-- [Installation](#installation)
-- [First launch and working folders](#first-launch-and-working-folders)
-- [Adding your own sounds](#adding-your-own-sounds)
-- [Wekinator editions](#wekinator-editions)
-- [HPtransformer editions](#hptransformer-editions)
-- [Performance and latency](#performance-and-latency)
-
----
-
-## Applications
-
-The collection currently includes the following application families.
-
-| Application | Main purpose | Available editions |
-|---|---|---|
-| **Agents** | Organize and evolve autonomous musical agents | Base, Wek, TR, Wek+TR |
-| **Density** | Explore musical density and event distribution | Base, Wek, TR, Wek+TR |
-| **Matrix** | Organize sound and control data in matrix structures | Base, Wek, TR, Wek+TR |
-| **Robot** | Automated and generative musical processes | Base, TR, Wek, Wek+TR |
-| **Time** | Organize temporal structures and musical evolution | Base, Wek |
-| **Scores** | Work with score-oriented musical organization | Base |
-| **Provinescu** | All in One Launcher for All Software| Base, TR, Wek, Wek+TR |
-
----
-
-## Edition names
-
-| Name pattern | Wekinator | HPtransformer | Description |
-|---|---:|---:|---|
-| `Agents`, `Density`, etc. | No | No | Standard standalone application |
-| `WekAgents`, `WekDensity`, etc. | Yes | No | Adds Wekinator parameter control |
-| `AgentsTR`, `DensityTR`, etc. | No | Yes | Adds HPtransformer learning and generation |
-| `WekAgentsTR`, `WekDensityTR`, etc. | Yes | Yes | Combines Wekinator and HPtransformer |
-
-`TR` identifies an edition using HPtransformer. `Wek` identifies an edition designed to communicate with Wekinator.
-
----
+The `Wek` prefix identifies an edition that communicates with Wekinator. The `TR` suffix identifies an edition that integrates HPtransformer.
 
 ## Requirements
 
-### Base editions
+### Standard editions
 
-- Apple Silicon Mac: M1, M2, M3, M4, or later
-- A tested version of macOS
-- Audio output or an audio interface supported by macOS
+- A Mac with Apple silicon
+- A compatible version of macOS
+- Built-in audio or a macOS-compatible audio interface
+- The macOS IAC Driver or another MIDI source enabled before launch
 
-### Wek editions
+A physical MIDI controller is optional, but the applications require an available MIDI source.
 
-- All base-edition requirements
-- [Wekinator](http://www.wekinator.org/)
-- OSC configuration matching the application guide
+### Wek and Wek+TR editions
 
-### MIDI workflows
+- All Standard-edition requirements
+- [Wekinator](https://github.com/fiebrink1/wekinator)
+- OSC settings matching the selected application
+- The matching Wekinator project
 
-- macOS **IAC Driver** enabled or any other MIDI driver must be enabled to launch the standalone application
-- A MIDI controller is optional
+Matching projects are available in [Wekinator Models for HP Software](https://github.com/provinescu/Wekinator-Models-for-HP-Software).
 
-### TR editions
+### TR and Wek+TR editions
 
-- All base-edition requirements
-- More CPU headroom than the corresponding base edition
-- A practical starting server latency of `0.2` seconds
+- All Standard-edition requirements
+- Additional CPU resources
+- Recommended initial audio-server latency: `0.2` seconds
 
-> The standalone applications are built with SuperCollider 3.14. A separate SuperCollider installation should not be required for ordinary standalone use unless a specific guide states otherwise.
-
----
+A separate SuperCollider installation is normally not required to use the standalone applications.
 
 ## Installation
 
-1. Download the required archive from **GitHub Releases**.
-2. Extract the `.7z` archive with a compatible utility such as [Keka](https://www.keka.io/) or 7-Zip.
-3. Move the `.app` bundle to:
-
-   ```text
-   /Applications
-   ```
-
-6. Launch the application from the Applications folder.
-
-### If macOS blocks the first launch
-
-If the application is unsigned or not notarized:
-
-1. Try to open the application once.
-2. Open **System Settings > Privacy & Security**.
-3. Find the message concerning the blocked application.
-4. Select **Open Anyway**.
-5. Confirm the launch.
-
----
-
-## First launch and working folders
-
-Each application stores its user data in a working folder.
-
-On first launch:
-
-1. Click **Working Folder**.
-2. Select an existing folder, or choose the application's default-folder option.
-3. If the current build uses **Cancel** to select the default location, the application creates:
-
-   ```text
-   ~/Documents/ApplicationName/
-   ```
-
-4. Confirm that the folder contains the expected preset, sound, and configuration files.
-
-Typical working-folder contents may include:
+1. Download the required `.7z` archive from the repository's **Releases** section.
+2. Extract it with [Keka](https://www.keka.io/) or another utility compatible with the 7-Zip format.
+3. Move the extracted application into:
 
 ```text
-ApplicationName/
-├── presets/
-├── data/
-├── sound
-├── list sound
-├── sessions/
-└── configuration files
+/Applications
 ```
 
-Actual contents vary by application and edition.
+4. Launch the application from the Applications folder.
+5. Wait for the main window to appear. The first launch may take longer than later launches.
 
----
+> **Important:** Do not run the application directly from the archive or the Downloads folder. Move it to `/Applications` first.
 
-## Adding your own sounds
+## Opening a blocked application in macOS
 
-Applications load user-defined sounds from a file named `sound` or `list sound` in the working folder.
+If macOS blocks an unsigned or unnotarized application:
 
-Before editing:
+1. Try to open the application once.
+2. Open **System Settings**.
+3. Select **Privacy & Security**.
+4. Locate the message about the blocked application.
+5. Click **Open Anyway**.
+6. Confirm the launch.
 
-1. Duplicate the original file.
-2. Store the backup outside the active working folder.
-3. Use a plain-text editor.
-4. Preserve UTF-8 encoding.
-5. Preserve every bracket, comma, symbol, and parenthesis.
-6. Restart the application or use its reload command after saving.
+Only use this procedure for an application downloaded from the official Provinescu repository.
 
----
+## First launch
 
-## Wekinator editions
+Each application stores its data in a dedicated working folder.
 
-Wek editions communicate with Wekinator through OSC.
+1. Launch the application.
+2. Wait for the main window to appear.
+3. Use the **Working Folder** command.
+4. Select or create the working folder.
+5. In editions where **Cancel** selects the default location, click **Cancel**.
 
-General workflow:
+The folder is generally created at:
+
+```text
+~/Documents/ApplicationName/
+```
+
+It contains presets, data, sound lists, and configuration files.
+
+You can create additional working folders to keep projects or sound libraries separate.
+
+## Custom sounds
+
+Some programs load sounds into memory and may be sensitive to the number or size of the selected files.
+
+To use your own sounds:
+
+1. Create a new working folder.
+2. Allow the application to initialize its files.
+3. Locate the `sound` or `list sound` file.
+4. Make a backup copy.
+5. Edit the file in a text editor.
+6. Preserve all existing brackets, commas, symbols, and paths exactly.
+7. Save the file.
+8. Restart the application or reload its sound configuration.
+
+## Using Wekinator
+
+Wek and Wek+TR editions communicate with Wekinator through OSC.
 
 1. Launch the HP standalone application.
 2. Launch Wekinator.
-3. Open or create the matching Wekinator project.
-4. Verify the OSC input port, output port, host, number of inputs, and number of outputs.
-5. Confirm that incoming values change in Wekinator.
-6. Train the Wekinator model.
-7. Start Wekinator output.
-8. Confirm that the standalone parameters respond.
+3. Open the matching Wekinator project.
+4. Check the OSC address.
+5. Check the input and output ports.
+6. Check the numbers of inputs and outputs.
+7. Confirm that incoming values change in Wekinator.
+8. Train the model.
+9. Start Wekinator's output.
+10. Confirm that the standalone application's parameters respond correctly.
 
----
+## Using HPtransformer
 
-## HPtransformer editions
+TR and Wek+TR editions use HPtransformer for real-time learning and generation.
 
-TR editions use HPtransformer for online learning and generation.
+Depending on the application and edition, HPtransformer may include:
 
-HPtransformer may include:
-
-- multi-head attention;
+- multiple attention heads;
 - mixture-of-experts routing;
-- long-term memory;
-- trajectory memory;
+- multiple memory mechanisms;
 - prioritized replay;
 - AutoTune;
 - MetaLearn;
-- targeted RCU inference snapshots.
+- targeted inference snapshots.
 
----
+These editions require more CPU resources than Standard and Wek editions.
 
 ## Performance and latency
 
-Occasional `late` messages may appear during heavy transformer operations. Persistent `late` messages mean that the workload or scheduling should be adjusted.
+`late` messages may appear during computationally intensive HPtransformer operations.
 
-Try the following in order:
+If they become frequent or occur together with audio dropouts:
 
-1. Increase server latency to `0.2` seconds.
-2. Keep `replayBatchSize` at `1`.
-3. Disable verbose status output.
+1. Set the audio-server latency to `0.2` seconds.
+2. Keep `replayBatchSize` at `1` when this setting is available.
+3. Disable verbose status messages.
+4. Reduce the number or size of sounds loaded into memory.
+5. Close other CPU-intensive applications.
 
----
+Messages such as `node not found`, `late`, or `buffer` may occasionally be non-critical if audio and controls continue to work correctly.
 
-MIT License
+Repeated audio dropouts, missing sounds, or unresponsive controls should be investigated.
 
-Copyright (c) 2026 Provinescu
+## Documentation
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+See:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- [HP Software Guides](https://github.com/provinescu/HP-Software-Guides)
+- [Wekinator Models for HP Software](https://github.com/provinescu/Wekinator-Models-for-HP-Software)
+- [Source Classes](https://github.com/provinescu/Software-Classes)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## Project philosophy
+
+An artistic and software project dedicated to experimental music, generative systems, and sound organization. The project is developed by a drummer, composer, and software developer.
+
+Explore the parameters, listen to the results, save useful configurations, and adapt the systems to your own musical practice.
+
+- [GitHub profile](https://github.com/provinescu)
+- [Music on Bandcamp](https://provinescu.bandcamp.com/)
+
+## License
+
+These applications are distributed under the MIT License. See the repository's `LICENSE` file for the full license text.
