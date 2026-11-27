@@ -2,6 +2,9 @@
 
 > **Provinescu Software Production**
 > Standalone generative-music applications for Macs with Apple silicon.
+> These classes use the VSTplugin class: https://github.com/Spacechild1/vstplugin
+> These Standalone were created using Platypus: https://github.com/dathinaios/sc_osx_standalone
+> These Standalone have been tested and verified on Mac OS Sequoia
 
 **SuperCollider 3.14 · Apple silicon · Generative Music · No Coding Required**
 
