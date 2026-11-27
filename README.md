@@ -13,6 +13,10 @@
 
 This repository brings together standalone applications designed to organize, transform, generate, and perform with sounds selected by the user.
 
+## Downloads
+The standalone applications are available from the repository's Releases section.
+Download the .7z archive corresponding to the ion and edition you want to use.
+
 ## Overview
 
 Developed as an extension of my practice as a **drummer, composer, and software developer**, this collection explores musical agents, density, matrices, automated processes, scores, and temporal structures.
